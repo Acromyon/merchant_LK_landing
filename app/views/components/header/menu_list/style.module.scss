@@ -1,0 +1,14 @@
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    font-size: 16px;
+    padding: 10px 16px;
+}
+
+.menu-item__link {
+    text-decoration: none;
+    color: #000;
+}

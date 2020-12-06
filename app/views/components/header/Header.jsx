@@ -11,11 +11,11 @@ import classes from './style.module.scss';
 export default function Header() {
     
     return (
-        <header>
+        <header className={classes.header}>
             <div className="container">
-                <nav>
+                <nav className={classes.headerNav}>
                     <Logo />
-                    <MenuList menuList={header_data.menu_list}/>
+                    <MenuList menuList={header_data.menu_list} />
                     <Button
                         btnText={header_data.btn_text}
                         btnType="default"

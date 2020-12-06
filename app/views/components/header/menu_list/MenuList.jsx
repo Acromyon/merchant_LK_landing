@@ -7,7 +7,7 @@ import classes from './style.module.scss';
 export default function MenuList(props) {
     
     return (
-        <ul className="menu-list">
+        <ul className={classes.menuList}>
             {props.menuList.map((item, i) => <MenuItem key={i} item={item} />)}
         </ul>
     );

@@ -1,0 +1,12 @@
+$footer_height: 135px;
+
+.footer {
+    background-color: #F3F9FC;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $footer_height;
+}
