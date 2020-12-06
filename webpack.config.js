@@ -9,7 +9,7 @@ const config = {
     entry: './app/index.js',
     output: {
         path: path.resolve(__dirname, 'public/static'),
-        publicPath: '/public/static',
+        publicPath: 'public/static/',
         filename: 'js/bundle.js',
     },
     devServer: {
@@ -51,7 +51,10 @@ const config = {
                     {
                         loader: 'file-loader',
                         options: {
-                            name: 'images/[hash]-[name].[ext]',
+                            name: 'images/[name]__[sha1:hash:hex:12].[ext]',
+                            exclude: [
+                                /assets/,
+                            ],
                         },
                     },
                 ],

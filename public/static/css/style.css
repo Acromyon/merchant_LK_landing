@@ -1,7 +1,12 @@
-
-
+.menu-list__072c42{display:flex;align-items:center}.menu-item__bd8c83{font-size:16px;padding:10px 16px}.menu-item__link__660325{text-decoration:none;color:#000}
+.logo__d3a400{display:block}
+.button{font-size:16px;font-weight:bold;border-radius:5px;border:1px solid #000;padding:19px 24px;cursor:pointer;outline:none}.button:active{transform:scale(0.98)}.button-default{color:#fff;border:none;background-color:#151c20}.button-accent{color:#fff;border:none;background-color:#54b454}
+.header__08daaf{background-color:#fff}.header-nav__de5c5c{display:flex;align-items:center;justify-content:space-between;height:88px}
+.footer__6dc004{background-color:#f3f9fc}.footer-inner__ee4088{display:flex;justify-content:center;align-items:center;height:135px}
 html{box-sizing:border-box;font-size:16px}*,*:before,*:after{box-sizing:inherit}body,h1,h2,h3,h4,h5,h6,p{margin:0;padding:0}ol[class],ul[class]{margin:0;padding:0;list-style:none}img{display:block;max-width:100%;height:auto}
-
-
-
-
+body{font:18px/1.6 "Noto Sans",sans-serif}.container{max-width:1220px;margin:0 auto}.wrapper{min-height:calc(100vh - 135px)}
+.introduction-section__439658{padding:170px 0 150px;background-color:#caf4ea}.grid-wrap__e532da{display:flex}.grid-wrap--vertical__d709da{display:flex;flex-direction:column;align-items:baseline}.title__fee344{font-family:Montserrat;font-weight:bold;font-size:56px;line-height:68px}.description__14aea8{font-size:18px;line-height:30px;color:#24283d;margin:25px 0 40px}.picture__a2ba21{padding-left:30px}
+.offer-info-grid__1ff9ec{display:flex;flex-wrap:wrap;margin:0 -15px}.offer-info-item__f57279{flex-basis:25%;padding:0 15px;color:#24283d}.title__5c523e{font-size:16px;font-weight:normal;text-transform:uppercase;margin-bottom:8px}.label__b9428b{font-weight:bold;font-size:16px;line-height:26px}
+.offer-info__bf3db9{padding:64px 0;background-color:#fff}
+.education-results-grid__beb3b8{display:flex;flex-wrap:wrap;margin:0 -15px}.education-results-item__51e995{flex-basis:33.33%;padding:0 15px}.icon__aedebb{width:96px;height:80px}.title__665bde{font-family:Montserrat;font-weight:bold;font-size:20px;line-height:28px;color:#151c20;margin:25px 0 16px}.description__7803f1{font-size:16px;line-height:26px;color:#8893aa}
+.education-results__48d0f4{padding:32px 0 96px;background-color:#fff}.title__31d9a1{font-family:Montserrat;font-weight:bold;font-size:46px;line-height:36px;color:#151c20;margin-bottom:65px}
