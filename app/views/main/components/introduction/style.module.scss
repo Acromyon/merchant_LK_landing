@@ -1,0 +1,32 @@
+.introduction-section {
+    padding: 170px 0 150px;
+    background-color: #CAF4EA;
+}
+
+.grid-wrap {
+    display: flex;
+}
+
+.grid-wrap--vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 68px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #24283D;
+    margin: 25px 0 40px;
+}
+
+.picture {
+    padding-left: 30px;
+}

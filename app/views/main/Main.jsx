@@ -4,15 +4,15 @@ import Introduction from './components/introduction/Introduction';
 import OfferInfo from './components/offer_info/OfferInfo';
 import EducationResults from './components/educational_results/EducationResults';
 
-import classes from './style.module.scss';
+import {content_data} from '../../static_data';
 
 export default function Main() {
     
     return (
         <React.Fragment>
-            <Introduction />
-            <OfferInfo />
-            <EducationResults />
+            <Introduction contentData={content_data.introduction} />
+            <OfferInfo contentData={content_data.offer_info} />
+            <EducationResults contentData={content_data.education_results} />
         </React.Fragment>
     );
 }
