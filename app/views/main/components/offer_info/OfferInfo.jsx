@@ -11,7 +11,7 @@ export default function OfferInfo(props) {
         <section className={classes.offerInfo}>
             <div className="container">
                 <OfferInfoGrid>
-                    {props.contentData.map((item, i) => <OfferInfoItem key={i} item={item}/>)}
+                    {props.contentData.map((item, i) => <OfferInfoItem key={i} item={item} />)}
                 </OfferInfoGrid>
             </div>
         </section>

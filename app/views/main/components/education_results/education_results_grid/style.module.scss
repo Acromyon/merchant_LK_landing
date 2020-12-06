@@ -1,0 +1,30 @@
+.education-results-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.education-results-item {
+    flex-basis: 33.33%;
+    padding: 0 15px;
+}
+
+.icon {
+    width: 96px;
+    height: 80px;
+}
+
+.title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #151C20;
+    margin: 25px 0 16px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #8893AA;
+}
