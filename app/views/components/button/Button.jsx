@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './style.scss';
+import './style.scss';
 
 export default function Button(props) {
     

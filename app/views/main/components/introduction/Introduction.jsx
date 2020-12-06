@@ -8,7 +8,7 @@ import classes from './style.module.scss';
 export default function Introduction(props) {
     
     return (
-        <div className={classes.introductionSection}>
+        <section className={classes.introductionSection}>
             <div className="container">
                 <div className={classes.gridWrap}>
                     <div className={classes.gridWrapVertical}>
@@ -29,6 +29,6 @@ export default function Introduction(props) {
                          alt="introduction_picture"/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
